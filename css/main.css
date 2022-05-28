@@ -1,0 +1,10 @@
+header {
+  background-color: #000000; }
+  header nav img {
+    width: 180px;
+    height: 300px; }
+  header nav a {
+    color: #ffffff; }
+
+.white-color {
+  color: #ffffff !important; }
