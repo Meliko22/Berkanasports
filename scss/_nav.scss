@@ -14,5 +14,53 @@ nav{
 
 .white-color {
     color: #ffffff !important;
+
+ div {
+     margin: auto;
+     width: 50px;
+     padding: 30px;
+
+    }
+
+ul, li {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+
 }
+
+ul.slider{
+    position: relative;
+    width: 50px;
+    height: 10px;
+}
+
+ul.slider li{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    opacity: 0;
+    width: auto;
+    height: auto;
+    transition-duration: 5s;
+
+}
+
+ul.slider li img{
+    width: 300%;
+    height: 500%;
+    object-fit: cover;
+
+}
+
+ul.slider li :first-child{
+    opacity: 1;
+    
+
+}
+
+}
+
+
+
 
