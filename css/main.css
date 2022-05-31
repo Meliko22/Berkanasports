@@ -35,6 +35,19 @@ header {
   .white-color ul.slider li :first-child {
     opacity: 1; }
 
+.mk-footer-img {
+  max-width: 50px;
+  max-height: 50px;
+  min-width: 25px;
+  min-height: 25px; }
+
+footer {
+  background-color: #000000; }
+  footer h3 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
 .mk-img-carousel {
   background-size: cover; }
 
@@ -70,6 +83,9 @@ header {
 .mk-grid-categ-der {
   grid-area: cuerpo-der;
   display: inline-block; }
+
+.section {
+  background-color: black; }
 
 @media (min-width: 768px) {
   .mk-contenedor {
