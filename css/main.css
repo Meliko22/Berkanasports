@@ -121,3 +121,7 @@ footer h6 {
   left: 50%;
   justify-content: center;
   transform: translate(-50%, -50%); }
+
+.mk-catalogo {
+  height: 50px;
+  width: 50px; }
