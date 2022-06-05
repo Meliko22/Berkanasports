@@ -57,11 +57,14 @@ footer h6 {
   background-size: cover; }
 
 .mk-carousel-section {
-  background-color: #000000; }
+  background-color: #ffffff; }
+
+.mk-categoria {
+  background-image: url(../img/fondo-azul.jpg); }
 
 .mk-contenedor {
+  color: #ffffff;
   display: grid;
-  background-color: #000000;
   grid-template-areas: "encabezado" "cuerpo-izq" "cuerpo-der";
   justify-content: center; }
   .mk-contenedor ul {
@@ -72,11 +75,11 @@ footer h6 {
     .mk-contenedor li img {
       padding: 5px 5px 5px 5px;
       width: 110px;
-      height: 110px; }
+      height: 110px;
+      border: 3px solid #ffffff; }
   .mk-contenedor h3 {
     text-align: center;
-    color: #ffffff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+    color: #ffffff; }
 
 .mk-grid-encabezado {
   grid-area: encabezado; }
@@ -90,7 +93,7 @@ footer h6 {
   display: inline-block; }
 
 .section {
-  background-color: black; }
+  background-color: #ffffff; }
 
 @media (min-width: 768px) {
   .mk-contenedor {
@@ -99,28 +102,98 @@ footer h6 {
       width: 150px;
       height: 150px; } }
 
-.nosotros {
-  background-image: url("../img/pesas2.jpg");
-  min-height: 100vh;
+.mk-nosotros {
+  background-image: url("../img/fondo-gris.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   margin: 0;
   padding: 0; }
+  .mk-nosotros div h3 {
+    color: #000000;
+    font-size: medium;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px; }
 
-.nosotros div p {
-  color: #f5f5dc;
-  font-size: medium;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: center;
-  padding: 0;
+.mk-catalogo-fondo {
+  background-image: url(../img/fondo-estrellas.jpg);
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bolder; }
+
+.mk-catalogo-futbol {
+  background-image: url(../img/fondo-azul.jpg);
+  color: #ffffff; }
+
+.mk-catalogo {
+  background-image: url(../img/fondo-azul.jpg); }
+
+.mk-btn {
+  border: 2px solid #2464d2;
+  font-family: "montserrat";
+  font-size: 30px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  color: #ffffff; }
+
+.mk-btn1, .mk-btn2 {
+  color: #5dad55; }
+
+.mk-btn3, .mk-btn4 {
+  color: #fff; }
+
+.mk-btn1:hover, .mk-btn2:hover {
+  color: #fff; }
+
+.mk-btn3:hover, .mk-btn4:hover {
+  color: #5dad55; }
+
+.mk-btn::before {
+  content: "";
   position: absolute;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  justify-content: center;
-  transform: translate(-50%, -50%); }
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #07078d;
+  z-index: -1;
+  transition: 0.8s; }
 
-.card-body {
-  margin: 30px 10px; }
+.mk-btn1::before, .mk-btn3::before {
+  top: 0;
+  border-radius: 0 0 50% 50%; }
+
+.mk-btn2::before, .mk-btn4::before {
+  bottom: 0;
+  border-radius: 50% 50% 0 0; }
+
+.mk-btn3::before, .mk-btn4::before {
+  height: 180%; }
+
+.mk-btn1:hover::before, .mk-btn2:hover::before {
+  height: 180%; }
+
+.mk-btn3:hover::before, .mk-btn4:hover::before {
+  height: 0%; }
+
+.mk-categ-link {
+  text-decoration: none;
+  color: #0f9213; }
+
+.mk-categ-link:hover {
+  color: #ffffff; }
+
+.mk-categ-link-b {
+  text-decoration: none;
+  color: #ffffff; }
+
+.mk-categ-link-b:hover {
+  color: #0f9213; }
+
+body {
+  background-color: #ffffff; }

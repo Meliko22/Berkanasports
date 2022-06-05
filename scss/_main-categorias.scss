@@ -1,7 +1,13 @@
+.mk-categoria {
+    background-image: url(../img/fondo-azul.jpg);
+    
+}
+
 .mk-contenedor {
     ul{
     list-style-type: none;
     display:inline-block;
+  
   
     }
     li{
@@ -10,6 +16,7 @@
             padding: 5px 5px 5px 5px;
             width: 110px;
             height: 110px;
+            border:3px solid #ffffff;
 
     }
     }
@@ -18,18 +25,15 @@
       
         text-align: center;
         color: #ffffff;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-    }
-
-
-
+       }
+    color: #ffffff;
     display: grid;
-    background-color: #000000;
     grid-template-areas: "encabezado"
                           "cuerpo-izq"
                           "cuerpo-der";
     justify-content: center;
+
+
 }
 
 
@@ -48,9 +52,10 @@
 
 
 .section {
-    background-color: black;
+    background-color: #ffffff;
 
 }
+
 
 @media (min-width:768px)
 {
